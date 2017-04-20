@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta charset"UTF-8">
+<title>Document</title>
+</head>
+
+<body>
+
+<input type="text" id="input1">
+<input type="text" id="input2">
+<input type="button" onclick="getAllDone()" value="click me"/>
+
+<script type="text/javascript">
+
+  function getAllDone(){
+    var input1=parseInt(document.getElementById('input1').value);
+    var input2=parseInt(document.getElementById('input2').value);
+// convert string to number//
+
+
+    alert(sum(input1, input2));
+    alert(multiply(input1,input2));
+    alert(modulus(input1, input2));
+    alert("test");
+
+
+    function sum(input1,input2){
+      var sum = input1 + input2;
+        return sum;
+}
+        function multiply(input1,input2){
+          var multiply = input1 * input2;
+            return multiply;
+    }
+
+            function modulus(input1,input2){
+              var modulus = input1 % input2;
+                return modulus;
+
+  }
+
+}
+    </script>
+
+
+
+
+    <body>
+    </html>
